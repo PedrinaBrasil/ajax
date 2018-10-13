@@ -8,7 +8,7 @@ $(document).ready(function(){
 	};
 	$.ajax({
 		type: "POST",
-    	data: dados_usuario,
+    		data: dados_usuario,
 		url:url,
 		success:function(dados){
 			token = data.token;
